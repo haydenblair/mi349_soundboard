@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="widtth=device-width, initial-scale=1.0">
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<title>MI349 Soundboard</title>
+</head>
+<body>
+	<audio id="applause_sound" src="applause.wav"></audio>
+	<audio id="punch_sound" src="punch.wav"></audio>
+	<audio id="tires_sound" src="tires.wav"></audio>
+
+	<div class="soundboard_div">
+
+		<h1>MI349 Soundboard</h1>
+
+		<input type="button" class="button_class" value="Applause" onclick="play('applause_sound')">
+		<input type="button" class="button_class" value="Punch" onclick="play('punch_sound')">
+		<input type="button" class="button_class" value="Tires" onclick="play('tires_sound')">
+
+	</div>
+	<script type="text/javascript" src="soundboard.js"></script>
+</body>
+</html>
